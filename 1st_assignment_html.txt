@@ -1,0 +1,64 @@
+﻿1.      Write a simple program in HTML that displays the heading "HTML defines the content and structure of your website” on the web browser.
+ANS: <!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Example</title>
+</head>
+<body>
+    <h1>HTML defines the content and structure of your website</h1>
+</body>
+</html>
+ 
+2.      Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
+ANS: Comments in HTML serve the purpose of providing human-readable notes on explanations within the html code. Comments are not visible to website visitors when view the webpage in their browsers. They are used primarily for documentation, clarification, or for temporarily disabling certain parts of the code.
+HTML comments are enclosed within “<! --" and “-->” tags, and anything placed between these are treated as a comment and being ignored by the web browser.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Web Page designed by Rashid Imran</h1>
+    <p>This is some content on my web page.</p>
+   
+    <!-- This is a comment. -->
+   
+    <p>More content goes here.</p>
+   
+    <!--
+    This is a multiline comment.
+    You can provide detailed explanations here.
+    -->
+   
+    <p>Even more content.</p>
+</body>
+</html>
+ 
+ 
+3.      Write an HTML program that includes a heading a paragraph of text a horizontal line and a line break. Arrange these elements to create a simple web page layout?
+   ANS: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a heading </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt voluptatibus corporis delectus, quisquam quidem mollitia pariatur tenetur. Iusto ducimus accusamus suscipit cupiditate inventore aliquam dignissimos saepe doloremque blanditiis est, fugiat illo incidunt ullam eveniet et ratione ut dolore iste enim nulla? Repudiandae corrupti, voluptate quo culpa et porro magnam.  </p>
+    <hr>
+    <p> Lorem ipsum dolor sit.</p>
+    <br>
+    <p>Lorem ipsum dolor sit.</p>
+ 
+</body>
+</html>
+ 
+4.      Write a short note on Tag and element with an example?
+ANS: HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags. When a web browser reads an HTML document, browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties. An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.
+            E.G. OF TAGS <tag> content </tag>
+            An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. An element in HTML usually consists of a start tag, close tag and content inserted between them. Technically, an element is a collection of start tag, attributes, end tag, content between them.
+ 
+ 
+5.      What is the DOCTYPE Declaration in HTML?
+ANS: On the HTML document you have often seen that there is a <!DOCTYPE html> declaration before the <html> tag. HTML <!DOCTYPE> tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD). Technically <!DOCTYPE > is not a tag/element, it just an instruction to the browser about the document type. It is a null element which does not contain the closing tag and must not include any content within it. there are many types of HTML e.g., HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. The <!DOCTYPE> declaration refers Document Type Declaration (DTD) in HTML 4.01; because HTML 4.01 was based on SGML. But HTML 5 is not SGML based language.
